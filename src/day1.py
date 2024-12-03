@@ -18,7 +18,7 @@ def similary_score(l1 : List, l2:List):
 col1 = []
 col2 = []
 
-with open("C:/Users/kemon/Documents/antoine/adventofcode/inputs/day1", 'r') as file:
+with open("./inputs/day1", 'r') as file:
     for line in file:
         values = line.split()
         col1.append(int(values[0]))
